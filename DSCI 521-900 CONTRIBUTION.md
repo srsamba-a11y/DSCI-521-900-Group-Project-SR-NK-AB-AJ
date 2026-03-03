@@ -4,7 +4,7 @@ Thanks for your interest in contributing to this project.
 
 ## Scope  
 
-This repository focuses on building a reproducible, multi-state dataset extract from Bureau of Transportation Fatality Analysis Report for the years 2022 and 2023.  That data subsets were pulled from kaggle.com and the following 8 states are included in this analysis:    
+This repository focuses on building a reproducible, multi-state dataset from Bureau of Transportation (BTS) Fatality Analysis Reports (FARS) for the years 2022 and 2023.  That datasets were pulled from kaggle.com, which are subsets of the original BTS FARS datasets. The following 8 states are included in this analysis:    
 
 * Alaska  
 * California
@@ -29,15 +29,16 @@ Before opening a pull request:
 - Confirm source URLs are public and stable  
 - Document variables added/changed in the data dictionary  
 - Describe all cleaning and standardization steps  
-- Note assumptions (currency conversion, PPP handling, missing value logic)  
+- Note assumptions (date or time conversions, missing value logic)  
 - Verify outputs are reproducible from notebook/script steps  
 
 ## Data Standards  
 
 Use these standards for all new or changed data:  
 
-- Retain one row per country-year for core tables  
-- Use consistent country names, adhering to the ISO 3-alpha country code   
+- Retain one row per state-year for core tables  
+- Use consistent state names; if using state abbreviations adhere to the ISO
+  3166-2 codes for US states   
 - Standardize column names  
 - Preserve units in column definitions  
 - Do not overwrite raw source files; develop transformed outputs separately  
@@ -69,14 +70,14 @@ When filing an issue, include:
 - File names and sample rows (if relevant)  
 
 ## Team Roles & Attribution  
-**Thanh Huynh:  Project Manager, Data Acquisition and Processing Lead**: Oversight of project lifecycle and milestones; executed data extractions via WHO/OECD APIs; developed Python notebooks and presentation materials  
-**Sharon Robinson:  Documentation Lead & Data Acquisition Participant**: Authored project README.md, DATA DICTIONARY.md, and CONTRIBUTIONS.md documents; participation in research and selection of countries for 5-country comparative study; creation and management of GitHub repository and version synchronization  
-**Khushi Patel:  Data Veracity, Visualization and Interpretation**: Participation in research and selection of countries for 5-country comparative study; data validation and presentatation preparation  
-**Ari Voluck:  Data Veracity, Visualization and Interpretation**: Participation in initial research and selection of countries for 5-country comparative study; data validation and presentatation preparation  
+**Nikita Lenard:  EDA Lead**: Authored project scope; executed data extractions from kaggle.com BTS FARS .csv files; developed Google Collab Python notebook, including project scope, implementation and Power Point shells; conducted Accident Patterns by Time of Day analysis  
+**Sharon Robinson:  Documentation Lead & EDA Team Member**: Authored project README.md, DATA DICTIONARY.md, and CONTRIBUTIONS.md documents; creation and management of GitHub repository and version synchronization; conducted Notification of MVA Crash to EMT Arrival lag-time and EMT Transport to Medical Treatment Facility lag-time analyses  
+**Alvin Boakai:  EDA Team Member**: Conducted Construction Zone Crashes per State analyses  
+**Ashokkumar Jangid:  EDA Team Member**: Conducted Multiple Fatalities by State analyses  
 
 ## Team Contacts  
 
-- Thanh Huynh — th3238@drexel.edu  
-- Khushi Patel — kp3382@drexel.edu  
+- Nikita Lenard — nl578@drexel.edu  
 - Sharon Robinson — slr424@drexel.edu  
-- Ari Voluck — av532@drexel.edu  
+- Ashokkumar Jangid - abj53@drexel.edu  
+- Alvin Boakai - asb424@drexel.edu
