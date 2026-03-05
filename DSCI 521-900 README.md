@@ -28,7 +28,7 @@
 
 Primary sources include:  
 
-- kaggle.com: Bureau of Transportation Statistics US DOT Fatality Analysis Reporting System 2022 and 2023   
+- Bureau of Transportation Statistics US DOT Fatality Analysis Reporting System 2022 and 2023   
 
 ---
 
