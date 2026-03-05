@@ -1,9 +1,3 @@
----
-marp: true
-theme: default
-paginate: true
----
-
 # DSCI 521-900 Term Project (EDA)   
 ## Scope: To perform a root-cause analysis of motor vehicle-related fatalities and identify contributing factors and conditions  
 - A selection of 8 states will be the focus of this analysis:  
